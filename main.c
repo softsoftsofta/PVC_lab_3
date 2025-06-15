@@ -137,12 +137,6 @@ int main(int argc, char** argv) {
 
     // Цикл выполнения задачи и подсчёта времени её выполнени
     for (int i = 0; i < RUNS; i++) {
-
-        // int* int_array = NULL; // Заполнится и используется только главным процессом
-        // if (process_rank == 0) {
-        //     int_array = CreateArray(ARRAY_SIZE);
-        // }
-        //PrintArray(int_array, ARRAY_SIZE);
         
         clock_gettime(CLOCK_REALTIME, &begin); // Начало таймера
 
