@@ -16,10 +16,10 @@ RUNS_CONFIG - количество прогонов программы (для �
 
 Ленивый способ запуска
 Чтобы не лезть в launch.sh для замены числа потоков, есть готовые варианты:
-launch_1_hw_thread.sh
-launch_2_hw_thread.sh
-launch_4_hw_thread.sh
-launch_8_hw_thread.sh
-launch_12_hw_thread.sh
-launch_16_hw_thread.sh
-launch_32_hw_thread.sh
+  launch_1_hw_thread.sh
+  launch_2_hw_thread.sh
+  launch_4_hw_thread.sh
+  launch_8_hw_thread.sh
+  launch_12_hw_thread.sh
+  launch_16_hw_thread.sh
+  launch_32_hw_thread.sh
