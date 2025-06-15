@@ -9,17 +9,16 @@
 Запуск:
 ./launch.sh
 
-Изменение настроек:
+Изменение настроек.
 Все настройки находятся в launch.sh в виде параметров среды, которые передаются скриптам запуска программ и далее самим программам.
-ARRAY_SIZE_CONFIG - размер массива
-RUNS_CONFIG - количество прогонов программы (для подсчёта усреднённого времени выполнения) HW_THREADS_CONFIG - количество аппаратных потоков процессора, на которых запустится задача
+ARRAY_SIZE_CONFIG - размер массива.
+RUNS_CONFIG - количество прогонов программы (для подсчёта усреднённого времени выполнения) HW_THREADS_CONFIG - количество аппаратных потоков процессора, на которых запустится задача.
 
-Ленивый способ запуска
-Чтобы не лезть в launch.sh для замены числа потоков, есть готовые варианты:
-  launch_1_hw_thread.sh
-  launch_2_hw_thread.sh
-  launch_4_hw_thread.sh
-  launch_8_hw_thread.sh
-  launch_12_hw_thread.sh
-  launch_16_hw_thread.sh
-  launch_32_hw_thread.sh
+Ленивый способ запуска. Чтобы не лезть в launch.sh для замены числа потоков, есть готовые варианты:
+launch_1_hw_thread.sh;
+launch_2_hw_thread.sh;
+launch_4_hw_thread.sh;
+launch_8_hw_thread.sh;
+launch_12_hw_thread.sh;
+launch_16_hw_thread.sh;
+launch_32_hw_thread.sh.
