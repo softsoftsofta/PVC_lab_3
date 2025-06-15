@@ -200,18 +200,6 @@ int main(int argc, char** argv) {
         if (parallel_mode) {
             free(buffer_array);
         }
-        // if (process_rank == 0) {
-        //     //int64_t test_result = SumElementsOfArray(int_array, ARRAY_SIZE);
-        //     free(int_array);
-
-        //     // if (final_sum == 0) {
-        //     //     final_sum = sum_result;
-        //     // }
-        //     // printf("Финальная сумма прохода %d : %ld (послед. результат: %ld) \n",
-        //     //         i+1, final_sum, test_result
-        //     // );
-        //     //printf("Финальная сумма прохода %d : %ld \n", i+1, final_sum);
-        // }
 
         clock_gettime(CLOCK_REALTIME, &end);
         exec_time += (double)(end.tv_sec - begin.tv_sec) + (double)(end.tv_nsec - begin.tv_nsec)/1e9;
