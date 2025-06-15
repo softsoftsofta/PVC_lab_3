@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export ARRAY_SIZE=2000
+export RUNS=10
+export HW_THREADS=1
+
+#BSUB -J LAB3-2          
+#BSUB -W 00:20             
+#BSUB -n 1                    
+#BSUB -R "span[ptile=1]"  
+#BSUB -oo logs/output_1.out          
+#BSUB -eo logs/error_1.err 
+
+./main
