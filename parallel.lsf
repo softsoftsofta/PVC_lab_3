@@ -4,7 +4,7 @@ export ARRAY_SIZE=2000
 export RUNS=10
 export HW_THREADS=12
 
-#BSUB -J LAB3-2          
+#BSUB -J PVC_lab_3          
 #BSUB -W 00:20             
 #BSUB -n $(HW_THREADS)                       
 #BSUB -oo logs/output_$(HW_THREADS).out          
